@@ -1,0 +1,67 @@
+[
+    {
+        "_id": "5e9f5ef8f94a1afb5ee8712b",
+        "index": 0,
+        "balance": "$3,883.33",
+        "age": 32,
+        "eyeColor": "green",
+        "name": "Bell Dickerson",
+        "gender": "male",
+        "company": "DREAMIA",
+        "email": "belldickerson@dreamia.com",
+        "phone": "+1 (984) 591-3976",
+        "address": "292 Atlantic Avenue, Shepardsville, California, 3565"
+    },
+    {
+        "_id": "5e9f5ef8aba66ba14abdff63",
+        "index": 1,
+        "balance": "$1,089.95",
+        "age": 40,
+        "eyeColor": "green",
+        "name": "Clements James",
+        "gender": "male",
+        "company": "MIRACLIS",
+        "email": "clementsjames@miraclis.com",
+        "phone": "+1 (889) 582-2395",
+        "address": "516 Emerson Place, Dowling, Michigan, 9502"
+    },
+    {
+        "_id": "5e9f5ef81f9406454f04280a",
+        "index": 2,
+        "balance": "$1,464.32",
+        "age": 30,
+        "eyeColor": "green",
+        "name": "Mccormick Casey",
+        "gender": "male",
+        "company": "EXTRAWEAR",
+        "email": "mccormickcasey@extrawear.com",
+        "phone": "+1 (896) 433-3565",
+        "address": "768 Folsom Place, Skyland, Mississippi, 1610"
+    },
+    {
+        "_id": "5e9f5ef8ab8856541e3a37f8",
+        "index": 3,
+        "balance": "$1,532.42",
+        "age": 30,
+        "eyeColor": "green",
+        "name": "Estrada Santiago",
+        "gender": "male",
+        "company": "VIXO",
+        "email": "estradasantiago@vixo.com",
+        "phone": "+1 (920) 418-2731",
+        "address": "400 Wythe Place, Bethany, Virgin Islands, 9777"
+    },
+    {
+        "_id": "5e9f5ef8ae005519827acbb4",
+        "index": 4,
+        "balance": "$1,903.26",
+        "age": 21,
+        "eyeColor": "blue",
+        "name": "Owen Mcknight",
+        "gender": "male",
+        "company": "GEEKWAGON",
+        "email": "owenmcknight@geekwagon.com",
+        "phone": "+1 (846) 596-2111",
+        "address": "594 Tompkins Place, Frizzleburg, Pennsylvania, 8908"
+    }
+]
