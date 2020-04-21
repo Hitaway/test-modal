@@ -1,5 +1,16 @@
-<div>
-    <footer>
-        <button (click)="closeModal()">Go back</button>
-    </footer>
-</div>
+<h2 mat-dialog-title id="title">Title</h2>
+<button type="button" class="close" data-dismiss="modal" (click)="closeModal()">&times;</button>
+<mat-dialog-content>
+    <svg class="bi bi-chevron-left" width="32" height="32" viewBox="0 0 16 16" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg" (click)="previous()">
+        <path fill-rule="evenodd"
+            d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z"
+            clip-rule="evenodd" />
+    </svg>
+    <svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 16 16" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg" (click)="next()">
+        <path fill-rule="evenodd"
+            d="M4.646 1.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L10.293 8 4.646 2.354a.5.5 0 010-.708z"
+            clip-rule="evenodd" />
+    </svg>
+</mat-dialog-content>

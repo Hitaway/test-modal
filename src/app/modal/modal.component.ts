@@ -7,19 +7,29 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
   styleUrls: ['./modal.component.scss']
 })
 export class ModalComponent implements OnInit {
-  private data: any;
+  private _data: any;
+  private _currentId: string;
 
   constructor(public dialogRef: MatDialogRef<ModalComponent>,
     @Inject(MAT_DIALOG_DATA) data) {
-    this.data = data;
+    this._data = data;
+    this._currentId = data[0]; // replace by current ID
   }
 
   ngOnInit() {
-    console.log(this.data);
+    console.log(this._data);
   }
 
-  closeModal() {
+  public closeModal(): void {
     this.dialogRef.close();
+  }
+
+  public previous(): void {
+    console.log("previous");
+  }
+
+  public next(): void {
+    console.log("next");
   }
 
 }
