@@ -1,4 +1,7 @@
 <main>
   <p (click)="openModal()">Open modal</p>
+  <ul>
+    <li *ngFor="let data of data">{{ data.company }}</li>
+  </ul>
 </main>
 <router-outlet></router-outlet>

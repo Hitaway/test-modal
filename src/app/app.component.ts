@@ -10,14 +10,20 @@ import data from '../assets/data.json';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  public data: any;
+
   constructor(public matDialog: MatDialog) { }
 
-  openModal() {
+  ngOnInit() {
+    this.data = data;
+  }
+
+  public openModal(): void {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.id = "modal-component";
     dialogConfig.height = "350px";
     dialogConfig.width = "600px";
-    dialogConfig.data = data;
+    dialogConfig.data = this.data;
     this.matDialog.open(ModalComponent, dialogConfig);
   }
 }

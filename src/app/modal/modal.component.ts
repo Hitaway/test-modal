@@ -8,7 +8,8 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 })
 export class ModalComponent implements OnInit {
   private _data: any;
-  private _currentId: string;
+  private _currentId: string;     // delete this variable and use _currentCompany
+  private _currentCompany: string;
 
   constructor(public dialogRef: MatDialogRef<ModalComponent>,
     @Inject(MAT_DIALOG_DATA) data) {
